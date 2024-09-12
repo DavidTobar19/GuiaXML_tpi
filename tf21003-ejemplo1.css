@@ -1,0 +1,13 @@
+* tf21003-ejemplo1.css   TF21003  */
+fichero {background-color:blue;}
+ficha {background-color:red; display:block;} nombre {color:white; display:inline;} apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:none;}
+enlace a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+enlace a:hover {
+    color: #2980b9;
+}

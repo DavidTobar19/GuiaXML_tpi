@@ -1,0 +1,56 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "David",
+				"apellido": "Tobar",
+				"direccion": "Colonia los Olivos psj Molina",
+				"telefono": [
+					{
+						"_tipo": "móvil",
+						"__text": "+503 61723558"
+					},
+					{
+						"_tipo": "fijo",
+						"__text": "+503 22913152"
+					}
+				],
+				"email": "tf21003@ues.edu.sv",
+				"website": "https://tf21003.com",
+				"_id": "2",
+				"_fechaingreso": "15/02/2021"
+			},
+			{
+				"nombre": "David",
+				"apellido": "Tobar",
+				"direccion": "Colonia los Olivos psj Molina",
+				"telefono": [
+					{
+						"_tipo": "móvil",
+						"__text": "+503 61723558"
+					},
+					{
+						"_tipo": "fijo",
+						"__text": "+503 22913152"
+					}
+				],
+				"email": "tf21003@ues.edu.sv",
+				"website": "https://tf21003.com",
+				"documentacion": {
+					"dui": "16341608-9",
+					"isss": "263436086",
+					"afp": "937154927"
+				},
+				"_id": "3",
+				"_fechaingreso": "15/02/2021"
+			}
+		]
+	}
+}

@@ -1,0 +1,134 @@
+/* tf21003-ejercicio1b.css */
+
+/* Estilos generales para el contenedor principal */
+fichero {
+    background-color: #f0f8ff; /* Fondo azul claro */
+    font-family: "Helvetica", sans-serif; /* Fuente general */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde alrededor del contenedor */
+  }
+  
+  /* Estilo para cada ficha */
+  ficha {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el nombre */
+  nombre {
+    color: #2c3e50; /* Azul oscuro */
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para el apellido */
+  apellido {
+    color: #8e44ad; /* Morado */
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para la dirección */
+  direccion {
+    color: #34495e; /* Gris oscuro */
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para los teléfonos */
+  telefono {
+    color: #16a085; /* Verde para los teléfonos */
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  telefono[tipo="móvil"]::before {
+    content: "Móvil: ";
+    font-weight: bold;
+  }
+  
+  telefono[tipo="fijo"]::before {
+    content: "Fijo: ";
+    font-weight: bold;
+  }
+  
+  /* Estilo para el correo electrónico */
+  email {
+    color: #d35400; /* Naranja */
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para el sitio web */
+  website {
+    color: #2980b9; /* Azul */
+    font-size: 1em;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para la fecha de ingreso (atributo) */
+  ficha[fechaingreso]::before {
+    content: "Fecha de ingreso: ";
+    font-weight: bold;
+    color: #7f8c8d; /* Gris claro */
+  }
+  
+  ficha[fechaingreso] {
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Estilo para la sección de documentación */
+  documentacion {
+    background-color: #ecf0f1; /* Fondo claro */
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    display:block;
+  }
+  
+  /* Estilos para los elementos de documentación (DUI, ISSS, AFP) */
+  dui, isss, afp {
+    color: #e74c3c; /* Rojo */
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  dui::before {
+    content: "DUI: ";
+    font-weight: bold;
+  }
+  
+  isss::before {
+    content: "ISSS: ";
+    font-weight: bold;
+  }
+  
+  afp::before {
+    content: "AFP: ";
+    font-weight: bold;
+  }
+
+  enlace a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+enlace a:hover {
+    color: #2980b9;
+}

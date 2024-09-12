@@ -1,0 +1,74 @@
+pais {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+pais::before {
+    content: "Información del País";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+idiomas {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #3498db;
+    display:block;
+}
+
+oficial, autoctono, segundo {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+    color: #34495e;
+}
+
+departamento {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    display:block;
+}
+
+departamento::before {
+    content: "Departamento";
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+cabecera {
+    font-size: 22px;
+    font-weight: bold;
+    color: #16a085;
+    
+}
+
+habitantes, altura {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin: 5px 0;
+}
+
+departamento[id="1"] {
+    background-color: #ecf0f1;
+}
+
+departamento[id="2"] {
+    background-color: #f5b041;
+}
+enlace a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+enlace a:hover {
+    color: #2980b9;
+}

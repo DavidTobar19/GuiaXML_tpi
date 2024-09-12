@@ -1,0 +1,90 @@
+/* tf21003-ejercicio1a.css  SUCARNET */
+fichero {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+  }
+  
+  ficha {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  nombre {
+    color: #2c3e50; 
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  apellido {
+    color: #8e44ad; 
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  direccion {
+    color: #34495e;
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  telefono {
+    color: #16a085; 
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  telefono[tipo="móvil"]::before {
+    content: "Móvil: ";
+    font-weight: bold;
+  }
+  
+  telefono[tipo="fijo"]::before {
+    content: "Fijo: ";
+    font-weight: bold;
+  }
+  
+  email {
+    color: #d35400; 
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  website {
+    color: #2980b9;
+    font-size: 1em;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+  
+  ficha[fechaingreso]::before {
+    content: "Fecha de ingreso: ";
+    font-weight: bold;
+    color: #7f8c8d; 
+  }
+  
+  ficha[fechaingreso] {
+    margin-top: 10px;
+    display: block;
+  }
+
+  enlace a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+enlace a:hover {
+    color: #2980b9;
+}

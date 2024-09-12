@@ -1,0 +1,39 @@
+{
+	"pais": {
+		"idiomas": {
+			"_oficial": "Español",
+			"_autoctono": "Náhuat",
+			"_segundo": "Inglés"
+		},
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"_id": "1",
+				"_nombre": "San Salvador",
+				"_area_territorial": "886 km²",
+				"_altura": "545 MSNM"
+			},
+			{
+				"cabecera": "Santa Tecla",
+				"habitantes": "850,000",
+				"_id": "2",
+				"_nombre": "La Libertad",
+				"_area_territorial": "1,652 km²",
+				"_altura": "900 MSNM"
+			},
+			{
+				"cabecera": "Santa Ana",
+				"habitantes": "600,000",
+				"_id": "3",
+				"_nombre": "Santa Ana",
+				"_area_territorial": "2,023 km²",
+				"_altura": "665 MSNM"
+			}
+		],
+		"_nombre": "El Salvador",
+		"_moneda": "USD",
+		"_codigo_telefonico": "+503",
+		"_area_total": "21,041 km²"
+	}
+}

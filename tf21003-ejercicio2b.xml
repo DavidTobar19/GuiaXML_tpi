@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="tf21003-ejercicio2b.css"?>
+<pais nombre="El Salvador" moneda="USD" codigo_telefonico="+503" area_total="21,041 km²">
+  
+  <idiomas oficial="Español" autoctono="Náhuat" segundo="Inglés"/>
+
+  <departamento id="1" nombre="San Salvador" area_territorial="886 km²" altura="545 MSNM">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+  </departamento>
+
+  <departamento id="2" nombre="La Libertad" area_territorial="1,652 km²" altura="900 MSNM">
+    <cabecera>Santa Tecla</cabecera>
+    <habitantes>850,000</habitantes>
+  </departamento>
+
+  <departamento id="3" nombre="Santa Ana" area_territorial="2,023 km²" altura="665 MSNM">
+    <cabecera>Santa Ana</cabecera>
+    <habitantes>600,000</habitantes>
+  </departamento>
+  <enlace>Haz clic <a href="index.html">aquí</a> para ir a la página principal.</enlace>
+</pais>

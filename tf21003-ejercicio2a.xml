@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ejemplo2.xml TF21003 -->
+<?xml-stylesheet type="text/css" href="tf21003-ejercicio2a.css"?>
+<pais nombre="El Salvador" moneda="USD" codigo_telefonico="+503">
+<idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Náhuat</autoctono>
+    <segundo>Inglés</segundo>
+  </idiomas>
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+<departamento id="2" nombre="La Libertad" area_territorial="1,652 km²">
+    <cabecera>Santa Tecla</cabecera>
+    <habitantes>850,000</habitantes>
+    <altura>900 MSNM</altura>
+  </departamento>
+  <enlace>Haz clic <a href="index.html">aquí</a> para ir a la página principal.</enlace>
+</pais>
