@@ -67,11 +67,6 @@ footer {
     width: 100%;
 }
 
-.button-container {
-    text-align: center;
-    margin: 20px 0;
-}
-
 .back-button {
     background-color: #4A90E2;
     color: white;
@@ -79,8 +74,21 @@ footer {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.1em;
+    cursor: pointer;
+    border: none;
+    margin: 20px 0;
 }
 
 .back-button:hover {
-    background-color: #357ABD;
+    background-color: #1a416e;
+    /* Color de fondo al pasar el mouse */
+    transform: scale(1.05);
+    /* Efecto de aumento al pasar el mouse */
+}
+
+.back-button:active {
+    background-color: #4A90E2;
+    /* Color de fondo al hacer clic */
+    transform: scale(0.98);
+    /* Efecto de reducción al hacer clic */
 }
